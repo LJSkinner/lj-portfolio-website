@@ -3,7 +3,7 @@ module.exports = {
   content: ["src/**/*.{html,js}"],
   theme: {
     screens: {
-      sm: "480px",
+      sm: "450px",
       md: "768px",
       lg: "976px",
       xl: "1440px"
@@ -13,7 +13,9 @@ module.exports = {
         darkNavyGrey: "#404258",
         lightGrey: "#6B728E",
         lightNavyGrey: "#474E68",
-        navyGreyPurple: "#50577A"
+        navyGreyPurple: "#50577A",
+        lightPurple: "#9F73AB",
+        lightYellow: "#F2F7A1"
       }
     },
   },
