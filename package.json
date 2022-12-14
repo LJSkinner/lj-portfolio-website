@@ -1,0 +1,19 @@
+{
+  "name": "lj-portfolio-website",
+  "version": "1.0.0",
+  "description": "A portfolio website for Luke Skinner, a Software Development graduate from University of Stirling, based in Scotland.",
+  "main": "index.js",
+  "scripts": {
+    "tailwind_build": "tailwindcss -i src/css/directives.css -o src/css/main.css",
+    "tailwind_dev": "tailwindcss -i src/css/directives.css -o src/css/main.css --watch"
+  },
+  "author": "Luke Skinner",
+  "license": "MIT",
+  "devDependencies": {
+    "tailwindcss": "^3.2.4"
+  },
+  "dependencies": {
+    "aos": "^2.3.4",
+    "firebase": "^9.15.0"
+  }
+}
