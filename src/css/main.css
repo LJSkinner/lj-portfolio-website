@@ -555,12 +555,28 @@ video {
   margin-bottom: 0px;
 }
 
+.mt-64 {
+  margin-top: 16rem;
+}
+
+.flex {
+  display: flex;
+}
+
 .hidden {
   display: none;
 }
 
+.w-auto {
+  width: auto;
+}
+
 .flex-col {
   flex-direction: column;
+}
+
+.flex-col-reverse {
+  flex-direction: column-reverse;
 }
 
 .items-center {
@@ -577,6 +593,22 @@ video {
   margin-left: calc(1.5rem * calc(1 - var(--tw-space-x-reverse)));
 }
 
+.space-y-0 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(0px * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(0px * var(--tw-space-y-reverse));
+}
+
+.space-y-2 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(0.5rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(0.5rem * var(--tw-space-y-reverse));
+}
+
+.rounded-full {
+  border-radius: 9999px;
+}
+
 .bg-lightNavyGrey {
   --tw-bg-opacity: 1;
   background-color: rgb(71 78 104 / var(--tw-bg-opacity));
@@ -586,9 +618,18 @@ video {
   padding: 0px;
 }
 
-.py-8 {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+.py-14 {
+  padding-top: 3.5rem;
+  padding-bottom: 3.5rem;
+}
+
+.px-8 {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.text-center {
+  text-align: center;
 }
 
 .font-sans {
@@ -605,6 +646,20 @@ video {
   line-height: 2.5rem;
 }
 
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
 .text-lightYellow {
   --tw-text-opacity: 1;
   color: rgb(242 247 161 / var(--tw-text-opacity));
@@ -616,13 +671,26 @@ video {
 }
 
 @media (min-width: 768px) {
-  .md\:my-72 {
+  .md\:mt-72 {
     margin-top: 18rem;
-    margin-bottom: 18rem;
   }
 
   .md\:flex {
     display: flex;
+  }
+
+  .md\:w-1\/2 {
+    width: 50%;
+  }
+
+  .md\:flex-row {
+    flex-direction: row;
+  }
+
+  .md\:space-x-24 > :not([hidden]) ~ :not([hidden]) {
+    --tw-space-x-reverse: 0;
+    margin-right: calc(6rem * var(--tw-space-x-reverse));
+    margin-left: calc(6rem * calc(1 - var(--tw-space-x-reverse)));
   }
 }
 
@@ -639,9 +707,8 @@ video {
 }
 
 @media (min-width: 1440px) {
-  .xl\:my-96 {
+  .xl\:mt-96 {
     margin-top: 24rem;
-    margin-bottom: 24rem;
   }
 
   .xl\:text-8xl {

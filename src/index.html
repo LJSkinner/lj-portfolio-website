@@ -10,14 +10,47 @@
     <title>Luke Skinner | Portfolio</title>
 </head>
 <body class="bg-lightNavyGrey">
-    <header class="relative container mx-auto my-0 p-0 justify-center md:my-72 xl:my-96">
+    <header class="relative container mx-auto my-0 p-0 justify-center md:mt-72 xl:mt-96">
         <div class="hidden flex-col items-center space-x-6 md:flex">
-            <h1 data-aos="fade-down"  data-aos-duration="1500" class="text-lightYellow text-6xl font-sans py-8 lg:text-7xl xl:text-8xl">Welcome to my portfolio</h1>
-            <p data-aos="fade-up" data-aos-duration="1500" class="text-white text-4xl font-sans lg:text-5xl xl:text-6xl">Enjoy your stay, scroll for more.</p>
+            <h1 data-aos="fade-down"  data-aos-duration="1500" class="text-lightYellow text-6xl font-sans py-14 lg:text-7xl xl:text-8xl">Welcome to my portfolio</h1>
+            <p data-aos="fade-up" data-aos-duration="1500" class="text-white text-4xl font-sans lg:text-5xl xl:text-6xl">Enjoy your stay, scroll for more</p>
         </div>
     </header>
 
+    <main class="">
+        <section id="welcome-hero">
+            <!-- Welcome Hero Container -->
+            <div class="container flex flex-col-reverse items-center px-8 mx-auto mt-64 space-y-0 md:flex-row md:space-x-24">
+                <!-- Introduction Blurb -->
+                <div class="flex flex-col space-y-2 md:w-1/2">
+                    <h2 data-aos="fade-right" data-aos-duration="1000" class="max-width-md text-lightYellow text-4xl font-bold">Hi there..</h2>
+                    <p data-aos="fade-left" data-aos-duration="1000" class="max-width-sm text-white text-3xl">
+                        My name is 
+                        <strong class="text-lightYellow">
+                            Luke Skinner
+                        </strong>
+                    </p>
+                    <p data-aos="fade-right" data-aos-duration="1000" class="max-width-sm text-white text-3xl">
+                        I am a recent <strong class="text-lightYellow">Software Development Graduate</strong> and I like to build all kinds of software.
+                    </p>
+                    <p data-aos="fade-left" data-aos-duration="1000" class="max-width-sm text-white text-3xl">
+                        My love for programming started with the popular video game Minecraft at age 12, where I programmed an in-game computer in Lua to make resource collection easier.
+                    </p>
+                    <p data-aos="fade-left" data-aos-duration="1000" class="max-width-sm text-white text-3xl">
+                        After finishing school I decided to pursue further education in Software Development so I could take my hobby into the professional world.
+                    </p>
+                </div>
+                <div data-aos="flip-up" data-aos-duration="1000" class="flex flex-col text-center space-y-2 md:w-1/2">
+                    <img src="img/profile.jpg" class="rounded-full w-auto">
+                    <p class="hidden text-2xl font-bold text-center text-lightYellow md:flex">BSc (Hons) Software Development with Cyber Security</p>
+                    <p class="hidden text-2xl font-bold text-center text-lightYellow md:flex">Graduated on 14/11/2022 with a grade of 1st Class</p>
+                    <p class="hidden text-2xl font-bold text-center text-lightYellow md:flex">Looking for work and bettering myself from home</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
     <script src="../node_modules/aos/dist/aos.js"></script>
-    <script>AOS.init()</script>
+    <script>AOS.init()</script> 
 </body>
 </html>
