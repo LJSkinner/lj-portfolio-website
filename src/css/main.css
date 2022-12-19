@@ -560,8 +560,8 @@ video {
   margin-right: 0px;
 }
 
-.mt-64 {
-  margin-top: 16rem;
+.mt-0 {
+  margin-top: 0px;
 }
 
 .mt-24 {
@@ -761,10 +761,6 @@ video {
     margin-top: 18rem;
   }
 
-  .md\:flex {
-    display: flex;
-  }
-
   .md\:w-1\/2 {
     width: 50%;
   }
@@ -773,20 +769,33 @@ video {
     flex-direction: row;
   }
 
-  .md\:space-x-24 > :not([hidden]) ~ :not([hidden]) {
-    --tw-space-x-reverse: 0;
-    margin-right: calc(6rem * var(--tw-space-x-reverse));
-    margin-left: calc(6rem * calc(1 - var(--tw-space-x-reverse)));
-  }
-
   .md\:space-x-6 > :not([hidden]) ~ :not([hidden]) {
     --tw-space-x-reverse: 0;
     margin-right: calc(1.5rem * var(--tw-space-x-reverse));
     margin-left: calc(1.5rem * calc(1 - var(--tw-space-x-reverse)));
   }
+
+  .md\:text-6xl {
+    font-size: 3.75rem;
+    line-height: 1;
+  }
 }
 
 @media (min-width: 976px) {
+  .lg\:mt-64 {
+    margin-top: 16rem;
+  }
+
+  .lg\:flex {
+    display: flex;
+  }
+
+  .lg\:space-x-24 > :not([hidden]) ~ :not([hidden]) {
+    --tw-space-x-reverse: 0;
+    margin-right: calc(6rem * var(--tw-space-x-reverse));
+    margin-left: calc(6rem * calc(1 - var(--tw-space-x-reverse)));
+  }
+
   .lg\:text-7xl {
     font-size: 4.5rem;
     line-height: 1;
