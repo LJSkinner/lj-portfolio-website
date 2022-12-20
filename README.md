@@ -8,5 +8,8 @@ I used [Tailwind CSS](https://tailwindcss.com/) to style this website and to lea
 
 Finally, in this website I reference my good friend Andrew McGuckin quite a bit. So please go check out his [Github](https://github.com/AndrewMcGuckin) and also check out [Project Roundtable](https://github.com/Project-Roundtable) for projects which we collab on.
 
+## Building this project
+If for some reason you'd like to build this project locally, first clone the repo with git clone, then run npm install. You'll need node.js installed of course.
+
 ## Licensing
 This portfolio website is licensed under MIT, please check the LICENSE.md document in this repo for more information about this license. 
